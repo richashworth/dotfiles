@@ -31,7 +31,7 @@ syntax on
 " That means all \x commands turn into ,x
 " The mapleader has to be set before vundle starts loading all 
 " the plugins.
-let mapleader=","
+let mapleader="\\"
 
 " =============== Vundle Initialization ===============
 " This loads all the plugins specified in ~/.vim/vundles.vim
@@ -116,3 +116,25 @@ set smartcase       " ...unless we type a capital
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
+
+" ================ Rich's Settings ========================
+colo obsidian 
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+hi Visual term=reverse cterm=reverse guibg=Grey
+let g:yadr_disable_solarized_enhancements = 1 
+set shell=/usr/local/bin/zsh\ -l
+
+" Change cursor shape between insert and normal mode in iTerm2.app
+if $TERM_PROGRAM =~ "iTerm.app"
+  let &t_SI = "\<Esc>]50;CursorShape=1\x7" " Vertical bar in insert mode
+  let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
+endif
+
+if exists('$TMUX')
+  let &t_SI = "\<esc>Ptmux;\<esc>\<esc>]50;CursorShape=1\x7\<esc>\\"
+  let &t_EI = "\<esc>Ptmux;\<esc>\<esc>]50;CursorShape=0\x7\<esc>\\"
+else
+  let &t_SI = "\<esc>]50;CursorShape=1\x7"
+  let &t_EI = "\<esc>]50;CursorShape=0\x7"
+endif

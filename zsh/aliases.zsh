@@ -36,7 +36,9 @@ if [[ $platform == 'linux' ]]; then
   alias ll='ls -alh --color=auto'
   alias ls='ls --color=auto'
 elif [[ $platform == 'darwin' ]]; then
-  alias ll='ls -alGh'
+  # alias l='ls -alGh'
+  alias ll='ls -ltrGh'
+  alias l='ls -trGh'
   alias ls='ls -Gh'
 fi
 
@@ -134,7 +136,7 @@ alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 # Common shell functions
 alias less='less -r'
 alias tf='tail -f'
-alias l='less'
+# alias l='less'
 alias lh='ls -alt | head' # see the last modified files
 alias screen='TERM=screen screen'
 alias cl='clear'
@@ -210,4 +212,14 @@ alias dbmd='spring rake db:migrate:down'
 alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
-alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+# alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+alias brewu='brew update  && brew upgrade && brew cleanup && brew prune && brew doctor'  # --all is now redundant
+alias brewup='brewu'
+alias bup='brewu'
+
+# Vimwiki
+alias wiki='vim ~/vimwiki/index.wiki'
+
+# Directories
+alias d='cd ~/Development'
+alias dev='d'
