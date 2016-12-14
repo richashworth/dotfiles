@@ -119,6 +119,7 @@ so ~/.yadr/vim/settings.vim
 
 " ================ Rich's Settings ========================
 colo obsidian 
+
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 hi Visual term=reverse cterm=reverse guibg=Grey
