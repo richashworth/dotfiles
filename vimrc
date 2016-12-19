@@ -118,7 +118,8 @@ set smartcase       " ...unless we type a capital
 so ~/.yadr/vim/settings.vim
 
 " ================ Rich's Settings ========================
-colo obsidian 
+colo solarized
+set background=dark
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
