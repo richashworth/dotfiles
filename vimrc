@@ -118,6 +118,7 @@ set smartcase       " ...unless we type a capital
 so ~/.yadr/vim/settings.vim
 
 " ================ Rich's Settings ========================
+set tw=80
 colo solarized
 set background=dark
 
