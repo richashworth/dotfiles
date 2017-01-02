@@ -125,7 +125,7 @@ set background=dark
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 hi Visual term=reverse cterm=reverse guibg=Grey
-let g:yadr_disable_solarized_enhancements = 0
+let g:yadr_disable_solarized_enhancements = 0 " enable this if issues with colors
 set shell=/usr/local/bin/zsh\ -l
 
 " scalafmt settings
