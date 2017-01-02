@@ -1,2 +1,3 @@
-colo mayansmoke
-set guifont=monaco:h13
+colo solarized
+set background=light
+set guifont=monaco:h14

@@ -125,8 +125,13 @@ set background=dark
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 hi Visual term=reverse cterm=reverse guibg=Grey
-let g:yadr_disable_solarized_enhancements = 1 
+let g:yadr_disable_solarized_enhancements = 0
 set shell=/usr/local/bin/zsh\ -l
+
+" scalafmt settings
+noremap <F5> :Autoformat<CR>
+let g:formatdef_scalafmt = "'scalafmt --stdin'"
+let g:formatters_scala = ['scalafmt']
 
 " Change cursor shape between insert and normal mode in iTerm2.app
 if $TERM_PROGRAM =~ "iTerm.app"
