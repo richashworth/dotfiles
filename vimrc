@@ -121,6 +121,12 @@ so ~/.yadr/vim/settings.vim
 set tw=80
 colo solarized
 set background=dark
+hi Normal guibg=NONE ctermbg=NONE
+
+" indent guides custom colors
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=16
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=232
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
