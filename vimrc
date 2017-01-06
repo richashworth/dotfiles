@@ -119,6 +119,10 @@ so ~/.yadr/vim/settings.vim
 
 " ================ Rich's Settings ========================
 set tw=80
+" Draw a line at 80 columns
+" set colorcolumn=80
+" highlight ColorColumn ctermbg=235 guibg=#2c2d27
+
 colo solarized
 set background=dark
 hi Normal guibg=NONE ctermbg=NONE
