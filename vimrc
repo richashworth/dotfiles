@@ -29,7 +29,7 @@ syntax on
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
-" The mapleader has to be set before vundle starts loading all 
+" The mapleader has to be set before vundle starts loading all
 " the plugins.
 let mapleader="\\"
 
@@ -138,6 +138,7 @@ set shell=/usr/local/bin/zsh\ -l
 noremap <F5> :Autoformat<CR>
 let g:formatdef_scalafmt = "'scalafmt --stdin'"
 let g:formatters_scala = ['scalafmt']
+" au BufWrite * :Autoformat
 
 " Change cursor shape between insert and normal mode in iTerm2.app
 if $TERM_PROGRAM =~ "iTerm.app"
