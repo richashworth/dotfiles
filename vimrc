@@ -118,10 +118,11 @@ set smartcase       " ...unless we type a capital
 so ~/.yadr/vim/settings.vim
 
 " ================ Rich's Settings ========================
+set wrap
 set tw=80
-" Draw a line at 80 columns
-" set colorcolumn=80
-" highlight ColorColumn ctermbg=235 guibg=#2c2d27
+" Draw a line at 81 columns
+set colorcolumn=81
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
 colo solarized
 set background=dark
@@ -139,10 +140,17 @@ let g:yadr_disable_solarized_enhancements = 0 " enable this if issues with color
 set shell=/usr/local/bin/zsh\ -l
 
 " scalafmt settings
-noremap <F5> :Autoformat<CR>
+noremap <localleader>f :Autoformat<CR>
 let g:formatdef_scalafmt = "'scalafmt --stdin'"
 let g:formatters_scala = ['scalafmt']
 " au BufWrite * :Autoformat
+
+" syntastic settings
+let g:syntastic_mode_map = { 'mode': 'passive' }
+
+" Ensime settings
+autocmd BufWritePost *.scala silent :EnTypeCheck
+nnoremap <localleader>t :EnTypeCheck<CR>
 
 " Change cursor shape between insert and normal mode in iTerm2.app
 if $TERM_PROGRAM =~ "iTerm.app"
