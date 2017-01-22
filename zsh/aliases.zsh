@@ -213,7 +213,6 @@ alias dbmd='spring rake db:migrate:down'
 alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
-# alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
 alias brewu='brew update  && brew upgrade && brew cleanup && brew prune && brew doctor'  # --all is now redundant
 alias brewup='brewu'
 alias bup='brewu'
