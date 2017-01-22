@@ -13,4 +13,5 @@ Bundle 'guns/xterm-color-table.vim'
 Bundle "godlygeek/csapprox.git"
 
 Bundle 'ryanoasis/vim-devicons'
+Bundle 'blueshirts/darcula'
 
