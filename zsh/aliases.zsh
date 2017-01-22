@@ -18,6 +18,7 @@ alias ydv='yadr vim-delete-plugin'
 alias ylv='yadr vim-list-plugin'
 alias yup='yadr update-plugins'
 alias yip='yadr init-plugins'
+alias y='cd ~/.yadr'
 
 # PS
 alias psa="ps aux"

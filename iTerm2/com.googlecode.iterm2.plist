@@ -878,7 +878,7 @@
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/.yadr/iTerm2</string>
+	<string>~/tools/iTerm2-Color-Schemes/backgrounds</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -913,13 +913,13 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>2549 65 811 532 1440 -300 1920 1177 </string>
+	<string>629 74 811 398 0 0 1440 900 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 374 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>2108 -182 599 505 1440 -300 1920 1177 </string>
+	<string>2092 -281 599 502 1440 -300 1920 1200 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1948 197 796 473 1440 -300 1920 1177 </string>
+	<string>249 254 918 495 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>2075 58 650 502 1440 -300 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -2768,7 +2768,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 14</string>
+			<string>MonacoForPowerlineNerdFontComplete 14</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -2849,6 +2849,10 @@
 	<string>95CAB319-9325-4543-9012-D0E89EE850A1</string>
 	<key>NoSyncLastTipTime</key>
 	<real>502926554.26534301</real>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -2909,7 +2913,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-01-02T22:38:21Z</date>
+	<date>2017-01-14T23:47:34Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>

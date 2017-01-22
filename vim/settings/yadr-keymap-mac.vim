@@ -29,9 +29,11 @@ nnoremap <D-[> f[ci[
 nnoremap <D-]> f]ci]
 
 " ==== NERD tree
-" Cmd-Shift-N for nerd tree
-nmap <D-N> :NERDTreeToggle<CR>
-nmap <c-n> :NERDTreeToggle<CR>
+" nmap <c-n> :NERDTreeToggle<CR>
+" Ctrl-N for nerd tree
+map <c-n> :NERDTreeToggle <cr>
+map <c-m> :NERDTreeFind <cr>
+let NERDTreeChDirMode=1
 
 " move up/down quickly by using Cmd-j, Cmd-k
 " which will move us around by functions
