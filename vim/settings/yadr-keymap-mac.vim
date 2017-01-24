@@ -32,8 +32,8 @@ nnoremap <D-]> f]ci]
 " nmap <c-n> :NERDTreeToggle<CR>
 " Ctrl-N for nerd tree
 map <c-n> :NERDTreeToggle <cr>
-map <c-m> :NERDTreeFind <cr>
-let NERDTreeChDirMode=1
+map <c-i> :NERDTreeFind <cr>
+let NERDTreeChDirMode=0
 
 " move up/down quickly by using Cmd-j, Cmd-k
 " which will move us around by functions
