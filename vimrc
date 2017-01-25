@@ -165,3 +165,6 @@ else
   let &t_SI = "\<esc>]50;CursorShape=1\x7"
   let &t_EI = "\<esc>]50;CursorShape=0\x7"
 endif
+
+let g:vimwiki_list = [{'path':'$HOME/vimwiki/vimwiki', 'path_html':'$HOME/vimwiki/vimwiki_html'}]
+

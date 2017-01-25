@@ -213,13 +213,15 @@ alias dbmd='spring rake db:migrate:down'
 alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
-alias brewu='brew update  && brew upgrade && brew cleanup && brew prune && brew doctor'  # --all is now redundant
+# alias brewu='brew update  && brew upgrade && brew cleanup && brew prune && brew doctor'
+alias brewu='brew update  && brew upgrade && brew cleanup && brew prune'  # -- doctor is noisy
 alias brewup='brewu'
 alias bup='brewu'
 
 # Vimwiki
-alias wiki='vim ~/vimwiki/index.wiki'
+alias wiki='vim ~/vimwiki/vimwiki/index.wiki'
 
 # Directories
 alias p='cd ~/Projects'
-alias proj='p'
+alias p='cd ~/Projects'
+alias g='cd ~/Projects/goodlord-akka'

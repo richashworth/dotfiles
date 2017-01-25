@@ -8,10 +8,7 @@ Bundle "chriskempson/base16-vim"
 Bundle "scrollcolors"
 Bundle 'flazz/vim-colorschemes'
 Bundle 'guns/xterm-color-table.vim'
-
 " Required for Gblame in terminal vim
 Bundle "godlygeek/csapprox.git"
-
-Bundle 'ryanoasis/vim-devicons'
 Bundle 'blueshirts/darcula'
-
+Bundle 'taohex/lightline-buffer'
