@@ -225,5 +225,6 @@ alias wiki='vim ~/vimwiki/vimwiki/index.wiki'
 
 # Directories
 alias p='cd ~/Projects'
-alias p='cd ~/Projects'
 alias g='cd ~/Projects/goodlord-akka'
+
+alias f='cd ~/Projects/fpinscala'
