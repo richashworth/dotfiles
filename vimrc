@@ -170,3 +170,4 @@ let g:vimwiki_list = [{'path':'$HOME/vimwiki/vimwiki', 'path_html':'$HOME/vimwik
 
 set timeoutlen=1000 ttimeoutlen=0
 
+set autochdir
