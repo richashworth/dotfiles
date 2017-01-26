@@ -166,7 +166,7 @@ else
   let &t_EI = "\<esc>]50;CursorShape=0\x7"
 endif
 
-let g:vimwiki_list = [{'path':'$HOME/vimwiki', 'path_html':'$HOME/vimwiki_html'}]
+let g:vimwiki_list = [{'path':'$HOME/vimwiki/vimwiki', 'path_html':'$HOME/vimwiki/vimwiki_html'}]
 
 set timeoutlen=1000 ttimeoutlen=0
 
