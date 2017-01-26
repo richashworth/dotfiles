@@ -221,7 +221,7 @@ alias brewup='brewu'
 alias bup='brewu'
 
 # Vimwiki
-alias wiki='vim ~/vimwiki/vimwiki/index.wiki'
+alias wiki='vim ~/vimwiki/index.wiki'
 
 # Directories
 alias p='cd ~/Projects'
