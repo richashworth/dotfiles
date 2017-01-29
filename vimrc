@@ -143,14 +143,14 @@ set shell=/usr/local/bin/zsh\ -l
 noremap <localleader>f :Autoformat<CR>
 let g:formatdef_scalafmt = "'scalafmt --stdin'"
 let g:formatters_scala = ['scalafmt']
-" au BufWrite * :Autoformat
+" au BufWrited * :Autoformat
 
 " syntastic settings
 let g:syntastic_mode_map = { 'mode': 'passive' }
 
 " Ensime settings
 autocmd BufWritePost *.scala silent :EnTypeCheck
-nnoremap <localleader>t :EnTypeCheck<CR>
+nnoremap <localleader>t :EnType<CR>
 
 " Change cursor shape between insert and normal mode in iTerm2.app
 if $TERM_PROGRAM =~ "iTerm.app"
