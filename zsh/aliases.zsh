@@ -220,7 +220,9 @@ alias brewu='brew update  && brew upgrade && brew cleanup && brew prune'  # -- d
 alias brewup='brewu'
 alias bup='brewu'
 
-# Vimwiki
+# Vim
+alias vi='vim'
+alias v='vim'
 alias wiki='vim ~/vimwiki/index.wiki'
 
 # Directories
