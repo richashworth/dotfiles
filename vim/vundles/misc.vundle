@@ -1,2 +1,3 @@
 Bundle "vimwiki"
+Bundle "jpalardy/vim-slime"
 " Bundle "dylanaraps/root.vim"

@@ -158,6 +158,8 @@ if $TERM_PROGRAM =~ "iTerm.app"
   let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
 endif
 
+let g:slime_target = "tmux"
+
 if exists('$TMUX')
   let &t_SI = "\<esc>Ptmux;\<esc>\<esc>]50;CursorShape=1\x7\<esc>\\"
   let &t_EI = "\<esc>Ptmux;\<esc>\<esc>]50;CursorShape=0\x7\<esc>\\"
