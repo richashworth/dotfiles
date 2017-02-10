@@ -225,10 +225,20 @@ alias vi='vim'
 alias v='vim'
 alias wiki='vim ~/vimwiki/index.wiki'
 
+# sbt
+alias st='sbt test'
+alias sc='sbt compile'
+alias ec='sbt ensimeConfig'
+
 # Directories
 alias p='cd ~/Projects'
 alias g='cd ~/Projects/goodlord-akka'
 alias gwiki='cd ~/Projects/goodlord-akka.wiki'
 alias gw='gwiki'
+alias vwiki='cd ~/vimwiki'
+alias vw='vwiki'
 
 alias f='cd ~/Projects/fpinscala'
+
+alias vvm='jvisualvm'
+alias visualvm='jvisualvm'
