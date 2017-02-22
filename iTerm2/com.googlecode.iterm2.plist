@@ -915,15 +915,15 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>629 74 811 398 0 0 1440 900 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 374 620 392 0 0 1440 877 </string>
+	<string>2090 288 620 392 1440 -300 1920 1177 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>2092 -132 599 505 1440 -300 1920 1200 </string>
+	<string>2092 -276 599 505 1440 -300 1920 1200 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>249 254 918 495 0 0 1440 877 </string>
+	<string>249 232 918 495 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1896 67 650 502 1440 -300 1920 1177 </string>
+	<string>394 373 650 502 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1688 -159 650 502 1440 -300 1920 1200 </string>
+	<string>154 80 650 502 0 0 1440 900 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1492,7 +1492,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 14</string>
+			<string>Monaco 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -2904,6 +2904,8 @@
 	<string>/Users/Rich/.yadr/iTerm2</string>
 	<key>Print In Black And White</key>
 	<true/>
+	<key>SUAutomaticallyUpdate</key>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -2913,7 +2915,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-01-18T21:35:18Z</date>
+	<date>2017-02-11T23:25:54Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
@@ -2925,7 +2927,7 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.0.13</string>
+	<string>3.0.14</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

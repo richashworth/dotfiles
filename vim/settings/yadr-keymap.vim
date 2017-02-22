@@ -174,3 +174,7 @@ nnoremap <silent> <C-z> :cp<CR>
 "ENSIME key bindings
 map <leader>b :EnDeclaration<CR>
 map <leader>q :EnDocBrowse<CR>
+
+"Livedown
+nmap gm :LivedownToggle<CR>
+
