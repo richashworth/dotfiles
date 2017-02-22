@@ -33,6 +33,8 @@ alias cls='clear;ls'
 alias df='df -h'
 alias du='du -h -d 2'
 
+alias py='python'
+
 if [[ $platform == 'linux' ]]; then
   alias ll='ls -alh --color=auto'
   alias ls='ls --color=auto'
