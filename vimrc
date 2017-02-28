@@ -159,6 +159,7 @@ if $TERM_PROGRAM =~ "iTerm.app"
 endif
 
 let g:slime_target = "tmux"
+let g:slime_paste_file = "$HOME/.slime_paste"
 
 if exists('$TMUX')
   let &t_SI = "\<esc>Ptmux;\<esc>\<esc>]50;CursorShape=1\x7\<esc>\\"
