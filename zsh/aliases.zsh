@@ -241,6 +241,7 @@ alias vwiki='cd ~/vimwiki'
 alias vw='vwiki'
 
 alias f='cd ~/Projects/fpinscala'
+alias k='cd ~/Projects/katas'
 
 alias vvm='jvisualvm'
 alias visualvm='jvisualvm'
