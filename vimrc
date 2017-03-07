@@ -173,4 +173,6 @@ let g:vimwiki_list = [{'path':'$HOME/vimwiki', 'path_html':'$HOME/vimwiki_html'}
 
 set timeoutlen=1000 ttimeoutlen=0
 
+set clipboard=unnamed
+
 set autochdir
