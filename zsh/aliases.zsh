@@ -221,11 +221,13 @@ alias dbmu='spring rake db:migrate:up'
 alias brewu='brew update  && brew upgrade && brew cleanup && brew prune'  # -- doctor is noisy
 alias brewup='brewu'
 alias bup='brewu'
+alias cup='brew cu'
+alias aup='bup;cup'
 
 # Vim
 alias vi='vim'
 alias v='vim'
-alias wiki='vim ~/vimwiki/index.wiki'
+alias wiki='vim ~/vimwiki/index.wiki -c "set background=light"'
 
 # sbt
 alias st='sbt test'
@@ -249,3 +251,6 @@ alias visualvm='jvisualvm'
 # Expose env vars for use in SBT
 alias sourceenvs='source .env;export $(cut -d= -f1 .env)'
 alias se='sourceenvs'
+
+alias ss='spotify status'
+alias sp='spotify pause'
