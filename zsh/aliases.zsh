@@ -254,3 +254,5 @@ alias se='sourceenvs'
 
 alias ss='spotify status'
 alias sp='spotify pause'
+
+alias w='curl -s wttr.in|grep -v Follow'
