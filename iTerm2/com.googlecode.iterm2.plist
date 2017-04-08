@@ -917,13 +917,13 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>2090 288 620 392 1440 -300 1920 1177 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>2092 -276 599 505 1440 -300 1920 1200 </string>
+	<string>414 55 606 456 0 0 1440 900 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>249 232 918 495 0 0 1440 900 </string>
+	<string>249 210 918 495 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>394 373 650 502 0 0 1440 877 </string>
+	<string>493 311 934 554 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>154 80 650 502 0 0 1440 900 </string>
+	<string>154 80 650 502 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2837,6 +2837,8 @@
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
 	<true/>
+	<key>NoSyncConfirmBeta</key>
+	<true/>
 	<key>NoSyncConfirmShellIntegrationCommand</key>
 	<true/>
 	<key>NoSyncConfirmShellIntegrationCommand_selection</key>
@@ -2915,9 +2917,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-02-11T23:25:54Z</date>
+	<date>2017-03-25T17:54:12Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>Selection Respects Soft Boundaries</key>
+	<true/>
 	<key>ShowFullScreenTabBar</key>
 	<true/>
 	<key>TabStyle</key>
