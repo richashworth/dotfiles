@@ -228,6 +228,7 @@ alias aup='bup;cup'
 alias vi='vim'
 alias v='vim'
 alias wiki='vim ~/vimwiki/index.wiki -c "set background=light spell"'
+alias w='wiki'
 
 # sbt
 alias st='sbt test'
@@ -255,7 +256,7 @@ alias se='sourceenvs'
 alias ss='spotify status'
 alias sp='spotify pause'
 
-alias w='curl -s wttr.in|grep -v Follow'
+alias ww='curl -s wttr.in|grep -v Follow'
 
 alias tl='tmux list-sessions'
 alias ta='tmux attach-session -t'
