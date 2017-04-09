@@ -258,4 +258,5 @@ alias sp='spotify pause'
 alias w='curl -s wttr.in|grep -v Follow'
 
 alias tl='tmux list-sessions'
+alias ta='tmux attach-session -t'
 
