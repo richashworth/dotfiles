@@ -71,7 +71,6 @@ nnoremap p p=`]<C-o>
 nnoremap P P=`]<C-o>
 
 filetype plugin on
-filetype indent on
 
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
@@ -175,7 +174,7 @@ endif
 
 let g:vimwiki_list = [{'path':'$HOME/vimwiki', 'path_html':'$HOME/vimwiki_html'}]
 
-set timeoutlen=1000 ttimeoutlen=0
+" set timeoutlen=1000 ttimeoutlen=0
 
 set clipboard=unnamed
 
