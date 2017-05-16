@@ -140,16 +140,20 @@ let g:yadr_disable_solarized_enhancements = 0 " enable this if issues with color
 set shell=/usr/local/bin/zsh\ -l
 
 " scalafmt settings
-noremap <localleader>f :Autoformat<CR>
 let g:formatdef_scalafmt = "'scalafmt --stdin'"
 let g:formatters_scala = ['scalafmt']
-" au BufWrited * :Autoformat
+let g:autoformat_verbosemode=1 " for error messages
+let g:autoformat_autoindent = 0
+let g:autoformat_retab = 0
+let g:autoformat_remove_trailing_spaces = 0"
+noremap <localleader>f :Autoformat<CR>
+" au BufWritePost * :Autoformat
 
 " syntastic settings
 let g:syntastic_mode_map = { 'mode': 'passive' }
 
 " Ensime settings
-autocmd BufWritePost *.scala silent :EnTypeCheck
+" autocmd BufWritePost *.scala silent :EnTypeCheck
 nnoremap <localleader>t :EnType<CR>
 
 " Change cursor shape between insert and normal mode in iTerm2.app
@@ -175,4 +179,5 @@ set timeoutlen=1000 ttimeoutlen=0
 
 set clipboard=unnamed
 
+set mouse=a
 set autochdir
