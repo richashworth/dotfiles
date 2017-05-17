@@ -119,9 +119,9 @@ so ~/.yadr/vim/settings.vim
 
 " ================ Rich's Settings ========================
 set wrap
-set tw=80
-" Draw a line at 81 columns
-set colorcolumn=81
+set tw=100
+" Draw a line at 101 columns
+set colorcolumn=101
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
 colo solarized
