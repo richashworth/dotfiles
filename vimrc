@@ -154,6 +154,7 @@ let g:syntastic_mode_map = { 'mode': 'passive' }
 " Ensime settings
 " autocmd BufWritePost *.scala silent :EnTypeCheck
 nnoremap <localleader>t :EnType<CR>
+let ensime_server_v2=1 "temp workaround for https://github.com/ensime/ensime-vim/issues/386
 
 " Change cursor shape between insert and normal mode in iTerm2.app
 if $TERM_PROGRAM =~ "iTerm.app"
