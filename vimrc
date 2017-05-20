@@ -139,8 +139,9 @@ let g:yadr_disable_solarized_enhancements = 0 " enable this if issues with color
 set shell=/usr/local/bin/zsh\ -l
 
 " scalafmt settings
-let g:formatdef_scalafmt = "'scalafmt --stdin'"
+let g:formatdef_scalafmt = '"scalafmt --stdin"'
 let g:formatters_scala = ['scalafmt']
+
 let g:autoformat_verbosemode=1 " for error messages
 let g:autoformat_autoindent = 0
 let g:autoformat_retab = 0
@@ -174,9 +175,9 @@ endif
 
 let g:vimwiki_list = [{'path':'$HOME/vimwiki', 'path_html':'$HOME/vimwiki_html'}]
 
-" set timeoutlen=1000 ttimeoutlen=0
+set timeoutlen=1000 ttimeoutlen=0
 
 set clipboard=unnamed
 
 set mouse=a
-set autochdir
+" set autochdir
