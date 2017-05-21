@@ -140,7 +140,6 @@ set shell=/usr/local/bin/zsh\ -l
 
 " scalafmt settings
 
-noremap <silent><F5> :Autoformat<CR>
 let g:formatdef_scalafmt = "'scalafmt --stdin'"
 let g:formatters_scala = ['scalafmt']
 
@@ -150,10 +149,9 @@ let g:autoformat_autoindent = 0
 let g:autoformat_retab = 0
 let g:autoformat_remove_trailing_spaces = 0
 "
-noremap <silent><localleader>f :Autoformat<CR>
+" noremap <silent><localleader>f :Autoformat<CR>
 
-" noremap <localleader>f :% !scalafmt --stdin<CR>4x<CR>''
-" nnoremap <localleader>f :% !scalafmt --stdin<CR>
+noremap <localleader>f :mark `<CR>:% !scalafmt --stdin<CR>4x<CR>``<CR>k
 " au BufWritePost * :Autoformat
 
 " syntastic settings
