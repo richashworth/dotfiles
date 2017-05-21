@@ -139,17 +139,20 @@ let g:yadr_disable_solarized_enhancements = 0 " enable this if issues with color
 set shell=/usr/local/bin/zsh\ -l
 
 " scalafmt settings
+
+noremap <silent><F5> :Autoformat<CR>
+let g:formatdef_scalafmt = "'scalafmt --stdin'"
 let g:formatters_scala = ['scalafmt']
-let g:formatdef_scalafmt = '"scalafmt --stdin"'
+
 "
 let g:autoformat_verbosemode=1 " for error messages
 let g:autoformat_autoindent = 0
 let g:autoformat_retab = 0
 let g:autoformat_remove_trailing_spaces = 0
 "
-" noremap <localleader>f :Autoformat
+noremap <silent><localleader>f :Autoformat<CR>
 
-noremap <localleader>f :% !scalafmt --stdin<CR>4x<CR>''
+" noremap <localleader>f :% !scalafmt --stdin<CR>4x<CR>''
 " nnoremap <localleader>f :% !scalafmt --stdin<CR>
 " au BufWritePost * :Autoformat
 
