@@ -151,7 +151,7 @@ let g:autoformat_remove_trailing_spaces = 0
 "
 " noremap <silent><localleader>f :Autoformat<CR>
 
-noremap <localleader>l :mark `<CR>:% !scalafmt --stdin<CR>4x<CR>``<CR>k
+noremap <localleader>l :mark `<CR>:% !scalafmt --stdin<CR>4x<CR>``<CR>kzz
 " au BufWritePost * :Autoformat
 
 " syntastic settings
