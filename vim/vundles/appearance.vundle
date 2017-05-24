@@ -12,3 +12,4 @@ Bundle 'guns/xterm-color-table.vim'
 Bundle "godlygeek/csapprox.git"
 Bundle 'blueshirts/darcula'
 Bundle 'taohex/lightline-buffer'
+" Plugin 'ryanoasis/vim-devicons'
