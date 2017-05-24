@@ -151,7 +151,7 @@ let g:autoformat_remove_trailing_spaces = 0
 "
 " noremap <silent><localleader>f :Autoformat<CR>
 
-noremap <localleader>l :mark `<CR>:% !scalafmt --stdin<CR>4x<CR>``<CR>kzz
+noremap <localleader>f :mark `<CR>:% !scalafmt --stdin<CR>4x<CR>``<CR>kzz
 " au BufWritePost * :Autoformat
 
 " syntastic settings
@@ -166,7 +166,7 @@ nnoremap <localleader>n :EnInline<CR>
 nnoremap <localleader>o :EnOrganizeImport<CR>
 nnoremap <localleader>i :EnSuggestImport<CR>
 nnoremap <localleader>r :EnRename
-nnoremap <localleader>f :EnSearch
+nnoremap <localleader>l :EnSearch
 
 let ensime_server_v2=1 "temp workaround for https://github.com/ensime/ensime-vim/issues/386
 
