@@ -171,9 +171,20 @@ map <silent> ,hp :!open -a Safari %<CR><CR>
 nnoremap <silent> <C-x> :cn<CR>
 nnoremap <silent> <C-z> :cp<CR>
 
-"ENSIME key bindings
+
+" Ensime settings
+" autocmd BufWritePost *.scala silent :EnTypeCheck
+nnoremap <localleader>t :TagbarOpenAutoClose<CR>
 map <leader>b :EnDeclaration<CR>
-map <leader>q :EnDocBrowse<CR>
+map <C-]> :EnDeclaration<CR>
+nnoremap <localleader>d :EnType<CR>
+nnoremap <localleader>c :EnTypeCheck<CR>
+nnoremap <localleader>q :EnDocBrowse<CR>
+nnoremap <localleader>n :EnInline<CR>
+nnoremap <localleader>o :EnOrganizeImport<CR>
+nnoremap <localleader>i :EnSuggestImport<CR>
+nnoremap <localleader>r :EnRename
+nnoremap <localleader>l :EnSearch
 
 "Plugin key-mappings.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.

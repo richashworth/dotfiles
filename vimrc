@@ -135,7 +135,7 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=232
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 hi Visual term=reverse cterm=reverse guibg=Grey
-let g:yadr_disable_solarized_enhancements = 0 " enable this if issues with colors
+let g:yadr_disable_solarized_enhancements = 1 " enable this if issues with colors
 set shell=/usr/local/bin/zsh\ -l
 
 " scalafmt settings
@@ -149,24 +149,15 @@ let g:autoformat_autoindent = 0
 let g:autoformat_retab = 0
 let g:autoformat_remove_trailing_spaces = 0
 "
-" noremap <silent><localleader>f :Autoformat<CR>
+noremap <silent><localleader>f :Autoformat<CR>
+" noremap <localleader>f :mark `<CR>:% !scalafmt --stdin<CR>4x<CR>``<CR>kzz
 
-noremap <localleader>f :mark `<CR>:% !scalafmt --stdin<CR>4x<CR>``<CR>kzz
 " au BufWritePost * :Autoformat
 
 " syntastic settings
 let g:syntastic_mode_map = { 'mode': 'passive' }
 
-" Ensime settings
-" autocmd BufWritePost *.scala silent :EnTypeCheck
-nnoremap <localleader>t :EnType<CR>
-nnoremap <localleader>tt :EnTypeCheck<CR>
-nnoremap <localleader>q :EnDocBrowse<CR>
-nnoremap <localleader>n :EnInline<CR>
-nnoremap <localleader>o :EnOrganizeImport<CR>
-nnoremap <localleader>i :EnSuggestImport<CR>
-nnoremap <localleader>r :EnRename
-nnoremap <localleader>l :EnSearch
+let g:tagbar_ctags_bin='/usr/local/bin/ctags'
 
 let ensime_server_v2=1 "temp workaround for https://github.com/ensime/ensime-vim/issues/386
 
@@ -190,7 +181,6 @@ endif
 let g:vimwiki_list = [{'path':'$HOME/vimwiki', 'path_html':'$HOME/vimwiki_html'}]
 
 set timeoutlen=500 ttimeoutlen=0
-
 
 set clipboard=unnamed
 
