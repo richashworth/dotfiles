@@ -244,3 +244,5 @@ alias ww='curl -s wttr.in|grep -v Follow'
 
 alias tl='tmux list-sessions'
 alias ta='tmux attach-session -t'
+
+alias ctags="`brew --prefix`/bin/ctags"
