@@ -179,7 +179,7 @@ endif
 
 let g:vimwiki_list = [{'path':'$HOME/vimwiki', 'path_html':'$HOME/vimwiki_html'}]
 
-set timeoutlen=100 ttimeoutlen=0
+set timeoutlen=700 ttimeoutlen=0
 
 set clipboard=unnamed
 
