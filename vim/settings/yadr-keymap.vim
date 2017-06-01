@@ -209,4 +209,3 @@ endif
 
 "Livedown
 nmap gm :LivedownToggle<CR>
-

@@ -27,8 +27,6 @@ set hidden
 "turn on syntax highlighting
 syntax on
 
-" Change leader to a comma because the backslash is too far away
-" That means all \x commands turn into ,x
 " The mapleader has to be set before vundle starts loading all
 " the plugins.
 let mapleader="\\"
@@ -71,6 +69,7 @@ nnoremap p p=`]<C-o>
 nnoremap P P=`]<C-o>
 
 filetype plugin on
+filetype indent on
 
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
@@ -123,7 +122,7 @@ set tw=100
 set colorcolumn=101
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
-colo onedark 
+colo onedark
 set background=dark
 hi Normal guibg=NONE ctermbg=NONE
 
