@@ -123,7 +123,7 @@ set tw=100
 set colorcolumn=101
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
-colo solarized
+colo onedark 
 set background=dark
 hi Normal guibg=NONE ctermbg=NONE
 
@@ -148,9 +148,9 @@ let g:autoformat_verbosemode=1 " for error messages
 let g:autoformat_autoindent = 0
 let g:autoformat_retab = 0
 let g:autoformat_remove_trailing_spaces = 0
-"
-" noremap <silent><localleader>f :Autoformat<CR>
-noremap <localleader>f :mark `<CR>:% !scalafmt --stdin<CR>4x<CR>``<CR>kzz
+
+noremap <silent><localleader>f :Autoformat<CR>
+" noremap <localleader>f :mark `<CR>:% !scalafmt --stdin<CR>4x<CR>``<CR>kzz
 
 " au BufWritePost * :Autoformat
 
@@ -180,9 +180,9 @@ endif
 
 let g:vimwiki_list = [{'path':'$HOME/vimwiki', 'path_html':'$HOME/vimwiki_html'}]
 
-set timeoutlen=500 ttimeoutlen=0
+set timeoutlen=100 ttimeoutlen=0
 
 set clipboard=unnamed
 
 set mouse=a
-" set autochdir
+set autochdir
