@@ -122,9 +122,9 @@ set tw=100
 set colorcolumn=101
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
-set background=dark
-hi Normal guibg=NONE ctermbg=NONE
 colo onedark
+" set background=dark
+" hi Normal guibg=NONE ctermbg=NONE
 
 " indent guides custom colors
 let g:indent_guides_auto_colors = 0

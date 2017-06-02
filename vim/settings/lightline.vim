@@ -1,6 +1,6 @@
 set showtabline=2
 let g:lightline = {
-    \ 'colorscheme': 'solarized',
+    \ 'colorscheme': 'wombat',
     \ 'tabline': {
         \ 'left': [ [ 'bufferinfo' ], [ 'bufferbefore', 'buffercurrent', 'bufferafter' ], ],
         \ 'right': [ [ 'close' ], ],
