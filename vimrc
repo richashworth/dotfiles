@@ -146,8 +146,7 @@ call StartNailgunScalaFmt()
 let g:formatdef_scalafmt = "'ng scalafmt --stdin'"
 let g:formatters_scala = ['scalafmt']
 
-"
-let g:autoformat_verbosemode=0 " for error messages
+let g:autoformat_verbosemode = 0 " for error messages
 let g:autoformat_autoindent = 0
 let g:autoformat_retab = 0
 let g:autoformat_remove_trailing_spaces = 0
@@ -155,7 +154,7 @@ let g:autoformat_remove_trailing_spaces = 0
 noremap <silent><localleader>f :Autoformat<CR>
 " noremap <localleader>f :mark `<CR>:% !scalafmt --stdin<CR>4x<CR>``<CR>kzz
 
-" au BufWritePost * :Autoformat
+au BufWritePost * :Autoformat
 
 " syntastic settings
 let g:syntastic_mode_map = { 'mode': 'passive' }
