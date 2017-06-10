@@ -122,8 +122,8 @@ set tw=100
 set colorcolumn=101
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
-colo onedark
-" set background=dark
+colo solarized
+set background=dark
 hi Normal guibg=NONE ctermbg=NONE
 
 " indent guides custom colors
@@ -134,7 +134,7 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=232
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 hi Visual term=reverse cterm=reverse guibg=Grey
-let g:yadr_disable_solarized_enhancements = 1 " enable this if issues with colors
+" let g:yadr_disable_solarized_enhancements = 1 " enable this if issues with colors
 set shell=/usr/local/bin/zsh\ -l
 
 " scalafmt settings
