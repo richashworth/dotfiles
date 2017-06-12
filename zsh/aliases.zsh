@@ -237,6 +237,7 @@ alias w='wiki'
 
 # sbt
 alias st='sbt test'
+alias test='sbt test'
 alias sc='sbt compile'
 alias ec='sbt ensimeConfig'
 
