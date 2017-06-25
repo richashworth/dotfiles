@@ -188,3 +188,5 @@ set clipboard=unnamed
 
 set mouse=a
 set autochdir
+
+let g:gist_post_private = 1
