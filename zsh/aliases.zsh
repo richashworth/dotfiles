@@ -254,6 +254,8 @@ alias k='cd ~/Projects/katas'
 alias vvm='jvisualvm'
 alias visualvm='jvisualvm'
 
+alias vtop='nocorrect vtop --theme brew'
+
 # Expose env vars for use in SBT
 alias sourceenvs='source .env;export $(cut -d= -f1 .env)'
 alias se='sourceenvs'
