@@ -154,7 +154,7 @@ let g:autoformat_remove_trailing_spaces = 0
 noremap <silent><localleader>f :Autoformat<CR>
 " noremap <localleader>f :mark `<CR>:% !scalafmt --stdin<CR>4x<CR>``<CR>kzz
 
-au BufWritePost *.scala :Autoformat
+" au BufWritePost *.scala :Autoformat
 
 " syntastic settings
 let g:syntastic_mode_map = { 'mode': 'passive' }
