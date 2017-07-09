@@ -151,7 +151,7 @@ let g:autoformat_autoindent = 0
 let g:autoformat_retab = 0
 let g:autoformat_remove_trailing_spaces = 0
 
-noremap <silent><localleader>f :Autoformat<CR>
+noremap <silent><localleader>f :Autoformat<CR>:SortScalaImports<CR>
 " noremap <localleader>f :mark `<CR>:% !scalafmt --stdin<CR>4x<CR>``<CR>kzz
 
 " au BufWritePost *.scala :Autoformat
