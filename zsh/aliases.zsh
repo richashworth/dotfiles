@@ -242,7 +242,7 @@ alias ec='sbt ensimeConfig'
 
 # Directories
 alias p='cd ~/Projects'
-alias g='cd ~/Projects/goodlord-akka'
+alias g='cd ~/Projects/goodlord-akka; sourceenvs'
 alias gwiki='cd ~/Projects/goodlord-akka.wiki'
 alias gw='gwiki'
 alias vwiki='cd ~/vimwiki'
