@@ -256,6 +256,7 @@ alias visualvm='jvisualvm'
 
 alias vtop='nocorrect vtop --theme brew'
 alias vt='vtop'
+alias ht='htop'
 
 # Expose env vars for use in SBT
 alias sourceenvs='source .env;export $(cut -d= -f1 .env)'
