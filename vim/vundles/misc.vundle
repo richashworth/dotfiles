@@ -3,3 +3,4 @@ Bundle "jpalardy/vim-slime"
 " Bundle "dylanaraps/root.vim"
 Bundle "shime/vim-livedown"
 Bundle "vim-scripts/bufkill.vim"
+Bundle 'junegunn/heytmux'
