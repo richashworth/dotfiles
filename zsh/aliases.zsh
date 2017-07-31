@@ -265,7 +265,7 @@ alias se='sourceenvs'
 alias ss='spotify status'
 alias sp='spotify pause'
 
-alias ww='curl -s wttr.in|grep -v Follow'
+alias ww='curl -s wttr.in|grep -v "Follow"|grep -v "New feature"'
 
 alias tl='tmux list-sessions'
 alias ta='tmux attach-session -t'
