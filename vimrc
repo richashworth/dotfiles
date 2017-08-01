@@ -98,7 +98,6 @@ set wildignore+=log/**
 set wildignore+=tmp/**
 set wildignore+=*.png,*.jpg,*.gif
 
-"
 " ================ Scrolling ========================
 
 set scrolloff=8         "Start scrolling when we're 8 lines away from margins
@@ -125,6 +124,20 @@ highlight ColorColumn ctermbg=235 guibg=#2c2d27
 colo solarized
 set background=dark
 hi Normal guibg=NONE ctermbg=NONE
+
+" ================ Tags ========================
+
+let g:tagbar_ctags_bin='/usr/local/bin/ctags'
+
+let g:tagbar_type_vimwiki = {
+      \   'ctagstype':'vimwiki'
+      \ , 'kinds':['h:header']
+      \ , 'sro':'&&&'
+      \ , 'kind2scope':{'h':'header'}
+      \ , 'sort':0
+      \ , 'ctagsbin':'~/tools/vimwiki-utils/utils/vwtags.py'
+      \ , 'ctagsargs': 'default'
+      \ }
 
 " indent guides custom colors
 let g:indent_guides_auto_colors = 0
@@ -158,8 +171,6 @@ noremap <silent><localleader>f :Autoformat<CR>:SortScalaImports<CR>
 
 " syntastic settings
 let g:syntastic_mode_map = { 'mode': 'passive' }
-
-let g:tagbar_ctags_bin='/usr/local/bin/ctags'
 
 let ensime_server_v2=1 "temp workaround for https://github.com/ensime/ensime-vim/issues/386
 
