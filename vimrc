@@ -190,3 +190,5 @@ set mouse=a
 set autochdir
 
 let g:gist_post_private = 1
+
+autocmd FileType markdown let b:dispatch = 'octodown --live-reload %'
