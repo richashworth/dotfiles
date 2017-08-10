@@ -233,7 +233,6 @@ alias vi='vim'
 alias v='vim'
 alias wikil='vim ~/vimwiki/index.wiki -c "set background=light spell"'
 alias wiki='vim ~/vimwiki/index.wiki' # -c "set spell"'
-alias w='wiki'
 
 # sbt
 alias st='sbt test'
@@ -243,6 +242,7 @@ alias ec='sbt ensimeConfig'
 # Directories
 alias p='cd ~/Projects'
 alias g='cd ~/Projects/goodlord-akka; sourceenvs'
+alias w='cd ~/Projects/worksheets'
 alias gwiki='cd ~/Projects/goodlord-akka.wiki'
 alias gw='gwiki'
 alias vwiki='cd ~/vimwiki'

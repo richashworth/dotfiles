@@ -201,3 +201,4 @@ set mouse=a
 set autochdir
 
 let g:gist_post_private = 1
+au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
