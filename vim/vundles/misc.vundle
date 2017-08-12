@@ -4,3 +4,4 @@ Bundle "jpalardy/vim-slime"
 Bundle "shime/vim-livedown"
 Bundle "vim-scripts/bufkill.vim"
 Bundle 'junegunn/heytmux'
+Bundle 'johngrib/vim-game-code-break'
