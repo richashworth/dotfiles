@@ -64,7 +64,7 @@ if [ $MACVIM_INSTALLED -eq 0 ]; then
   alias vim="mvim -v"
 fi
 
-alias vim='/usr/local/bin/vim'
+alias vim='nvim'
 alias vi='vim'
 
 # mimic vim functions
@@ -229,8 +229,8 @@ alias cup='brew cu'
 alias aup='bup;cup'
 
 # Vim
-alias vi='vim'
-alias v='vim'
+alias vi='nvim'
+alias v='nvim'
 alias wikil='vim ~/vimwiki/index.wiki -c "set background=light spell"'
 alias wiki='vim ~/vimwiki/index.wiki' # -c "set spell"'
 
