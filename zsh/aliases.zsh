@@ -64,7 +64,7 @@ if [ $MACVIM_INSTALLED -eq 0 ]; then
   alias vim="mvim -v"
 fi
 
-alias vim='/usr/local/bin/vim'
+alias vim='/usr/local/bin/nvim'
 alias vi='vim'
 
 # mimic vim functions
