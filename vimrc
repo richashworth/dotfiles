@@ -10,7 +10,7 @@ endif
 
 " ================ General Config ====================
 
-set relativenumber                      "Line numbers are good
+set relativenumber              "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
 set showcmd                     "Show incomplete cmds down the bottom
@@ -202,5 +202,4 @@ set autochdir
 
 let g:gist_post_private = 1
 
-autocmd FileType markdown let b:dispatch = 'octodown --live-reload %'
 au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
