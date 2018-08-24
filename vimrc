@@ -172,8 +172,6 @@ au BufWritePost *.scala :Autoformat
 " syntastic settings
 let g:syntastic_mode_map = { 'mode': 'passive' }
 
-let ensime_server_v2=1 "temp workaround for https://github.com/ensime/ensime-vim/issues/386
-
 " Change cursor shape between insert and normal mode in iTerm2.app
 if $TERM_PROGRAM =~ "iTerm.app"
   let &t_SI = "\<Esc>]50;CursorShape=1\x7" " Vertical bar in insert mode
@@ -193,8 +191,6 @@ endif
 
 let g:vimwiki_list = [{'path':'$HOME/vimwiki/vimwiki', 'path_html':'$HOME/vimwiki/vimwiki_html'}, {'path':'$HOME/itv-wiki', 'path_html':'$HOME/itv-wiki_html'}]
 
-set timeoutlen=700 ttimeoutlen=0
-
 set clipboard=unnamed
 
 set mouse=a
@@ -205,4 +201,3 @@ let g:gist_post_private = 1
 au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
 
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
-
