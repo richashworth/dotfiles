@@ -230,8 +230,15 @@ alias aup='bup;cup'
 # Vim
 alias vi='vim'
 alias v='vim'
+
+# Vimwiki
 alias wikil='vim ~/vimwiki/vimwiki/index.wiki -c "set background=light spell"'
 alias wiki='vim ~/vimwiki/vimwiki/index.wiki' # -c "set spell"'
+alias iwikil='vim ~/itv-wiki/index.wiki -c "set background=light spell"'
+alias iwiki='vim ~/itv-wiki/index.wiki' # -c "set spell"'
+
+alias iw='iwiki' # -c "set spell"'
+alias wi='wiki' # -c "set spell"'
 
 # sbt
 alias st='sbt test'
