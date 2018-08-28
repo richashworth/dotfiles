@@ -191,7 +191,7 @@ endif
 
 let g:vimwiki_list = [{'path':'$HOME/vimwiki/vimwiki', 'path_html':'$HOME/vimwiki/vimwiki_html'}, {'path':'$HOME/itv-wiki', 'path_html':'$HOME/itv-wiki_html'}]
 
-set clipboard=unnamed
+" set clipboard=unnamed
 
 set mouse=a
 set autochdir
