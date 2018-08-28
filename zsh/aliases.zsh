@@ -53,18 +53,17 @@ TRAPHUP() {
   source $yadr/zsh/aliases.zsh
 }
 
-alias ae='vim $yadr/zsh/aliases.zsh' #alias edit
+alias ae='nvim $yadr/zsh/aliases.zsh' #alias edit
 alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
 alias gar="killall -HUP -u \"$USER\" zsh"  #global alias reload
 
 # vim using
-mvim --version > /dev/null 2>&1
-MACVIM_INSTALLED=$?
-if [ $MACVIM_INSTALLED -eq 0 ]; then
-  alias vim="mvim -v"
-fi
-
-alias vi='vim'
+# mvim --version > /dev/null 2>&1
+# MACVIM_INSTALLED=$?
+# if [ $MACVIM_INSTALLED -eq 0 ]; then
+#   alias vim="mvim -v"
+# fi
+#
 
 # mimic vim functions
 alias :q='exit'
@@ -228,6 +227,7 @@ alias cup='brew cleanup'
 alias aup='bup;cup'
 
 # Vim
+alias vim='nvim'
 alias vi='vim'
 alias v='vim'
 
@@ -252,7 +252,7 @@ alias w='cd ~/Projects/worksheets'
 alias vwiki='cd ~/vimwiki'
 alias vw='vwiki'
 
-alias ivwiki='cd ~/vimwiki'
+alias ivwiki='cd ~/itv-wiki'
 alias ivw='ivwiki'
 alias vwi='ivwiki'
 
