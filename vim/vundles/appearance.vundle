@@ -11,7 +11,7 @@ Bundle 'guns/xterm-color-table.vim'
 " Required for Gblame in terminal vim
 Bundle "godlygeek/csapprox.git"
 Bundle 'blueshirts/darcula'
-Bundle 'taohex/lightline-buffer'
+Bundle 'taohexxx/lightline-buffer'
 " Bundle 'ryanoasis/vim-devicons'
 " Plugin 'yuttie/comfortable-motion.vim'
 Plugin 'severin-lemaignan/vim-minimap'

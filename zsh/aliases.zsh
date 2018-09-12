@@ -259,8 +259,8 @@ alias vwi='ivwiki'
 alias f='cd ~/Projects/fpinscala'
 alias k='cd ~/Projects/katas'
 
-alias vvm='jvisualvm'
-alias visualvm='jvisualvm'
+# alias vvm='jvisualvm'
+# alias visualvm='jvisualvm'
 
 alias vtop='nocorrect vtop --theme brew'
 alias vt='vtop'
