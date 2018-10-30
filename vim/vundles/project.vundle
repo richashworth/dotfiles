@@ -8,3 +8,5 @@ Bundle "xolox/vim-session"
 Bundle 'JazzCore/ctrlp-cmatcher'
 Bundle 'junegunn/fzf'
 Bundle 'schickling/vim-bufonly'
+Bundle 'mattn/calendar-vim'
+
