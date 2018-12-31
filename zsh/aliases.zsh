@@ -283,3 +283,5 @@ alias ta='tmux attach-session -t'
 alias ctags="`brew --prefix`/bin/ctags"
 
 alias datem="date +%F"
+
+alias is="istats"
