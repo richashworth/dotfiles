@@ -1,0 +1,3 @@
+" Removing Plugins:
+Plugin 'vim-fugitive'
+
