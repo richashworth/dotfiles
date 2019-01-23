@@ -285,3 +285,5 @@ alias ctags="`brew --prefix`/bin/ctags"
 alias datem="date +%F"
 
 alias is="istats"
+alias myip="curl ipecho.net/plain ; echo"
+alias ip="myip"
