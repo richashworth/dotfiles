@@ -3,6 +3,7 @@ Bundle 'garbas/vim-snipmate.git'
 Bundle 'honza/vim-snippets'
 Bundle 'scrooloose/syntastic.git'
 Bundle 'skwp/vim-html-escape'
+<<<<<<< HEAD
 Bundle 'richashworth/vim-scala'
 Bundle 'derekwyatt/vim-sbt'
 " Bundle 'ensime/ensime-vim'
@@ -20,3 +21,7 @@ Bundle 'Quramy/tsuquyomi'
 Plugin 'tpope/vim-markdown'
 " Plugin 'jtratner/vim-flavored-markdown'
 Plugin 'rhysd/vim-gfm-syntax'
+=======
+Bundle 'mxw/vim-jsx'
+Bundle 'jparise/vim-graphql'
+>>>>>>> 4f96ebb0aced3730e2ae276cc7053f0d8e611a60
