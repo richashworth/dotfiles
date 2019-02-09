@@ -220,7 +220,7 @@ alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
 
-alias brewu='brew update && brew upgrade
+alias brewu='brew update && brew upgrade'
 alias brewup='brewu'
 alias bup='brewu'
 alias cup='brew cleanup'
