@@ -228,8 +228,8 @@ alias aup='bup;cup'
 
 # Vim
 alias vim='nvim'
-alias vi='vim'
-alias v='vim'
+alias vi='nvim'
+alias v='nvim'
 
 # Vimwiki
 alias wikil='vim ~/vimwiki/vimwiki/index.wiki -c "set background=light spell"'
