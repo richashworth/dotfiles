@@ -262,3 +262,4 @@ au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 "
 
 let g:airline#extensions#tabline#enabled = 1
+let g:livedown_open = 1
