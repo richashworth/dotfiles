@@ -80,9 +80,15 @@ set linebreak    "Wrap lines at convenient points
 " ================ Folds ============================
 
 " set foldmethod=indent   "fold based on indent
-set foldmethod=syntax   "fold based on syntax
+set foldmethod=manual
 set foldnestmax=5       "deepest fold is 3 levels
-set nofoldenable        "dont fold by default
+" set nofoldenable        "dont fold by default
+"
+augroup remember_folds
+  autocmd!
+  au BufWinLeave ?* mkview 1
+  au BufWinEnter ?* silent! loadview 1
+augroup END
 
 " ================ Completion =======================
 
@@ -254,5 +260,5 @@ au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 " " Initialize plugin system
 " call plug#end()
 "
-"
-"
+
+let g:airline#extensions#tabline#enabled = 1

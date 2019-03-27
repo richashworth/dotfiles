@@ -1,6 +1,6 @@
 Bundle "chrisbra/color_highlight.git"
 Bundle "skwp/vim-colors-solarized"
-Bundle "itchyny/lightline.vim"
+" Bundle "itchyny/lightline.vim"
 Bundle "jby/tmux.vim.git"
 Bundle "morhetz/gruvbox"
 Bundle "xsunsmile/showmarks.git"
@@ -11,8 +11,10 @@ Bundle 'guns/xterm-color-table.vim'
 " Required for Gblame in terminal vim
 Bundle "godlygeek/csapprox.git"
 Bundle 'blueshirts/darcula'
-Bundle 'taohexxx/lightline-buffer'
+" Bundle 'taohexxx/lightline-buffer'
 " Bundle 'ryanoasis/vim-devicons'
 " Plugin 'yuttie/comfortable-motion.vim'
-Plugin 'severin-lemaignan/vim-minimap'
+" Plugin 'severin-lemaignan/vim-minimap'
 Plugin 'luochen1990/rainbow'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
