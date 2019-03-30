@@ -290,5 +290,5 @@ alias ip="myip"
 
 alias ktsrunner="fswatch -0 . | xargs -0 -n 1 -I {} sh -c  \"clear; echo '\033[0;32mRunning {}\033[0;37m'; echo; kscript {} ; echo;\""
 
-alias hs="hugo serve ==disableFastRender"
+alias hs="hugo serve --disableFastRender"
 
