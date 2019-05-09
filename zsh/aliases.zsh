@@ -293,3 +293,4 @@ alias ktsrunner="fswatch -0 . | xargs -0 -n 1 -I {} sh -c  \"clear; echo '\033[0
 alias hs="hugo serve --disableFastRender"
 alias ra='cd ~/Projects/richashworth.com'
 
+alias idea='/usr/bin/idea'

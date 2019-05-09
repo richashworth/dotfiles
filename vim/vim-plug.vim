@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'ryanoasis/vim-devicons'
 " Plug 'vim-scripts/AutoTag'
 " Plug 'yuttie/comfortable-motion.vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'Chiel92/vim-autoformat'
 Plug 'GEverding/vim-hocon'

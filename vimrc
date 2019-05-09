@@ -148,7 +148,7 @@ let g:tagbar_type_vimwiki = {
       \ , 'sro':'&&&'
       \ , 'kind2scope':{'h':'header'}
       \ , 'sort':0
-      \ , 'ctagsbin':'~/tools/vimwiki-utils/utils/vwtags.py'
+      \ , 'ctagsbin':'~/.vim/vwtags.py'
       \ , 'ctagsargs': 'default'
       \ }
 
@@ -211,7 +211,7 @@ let g:tagbar_type_vimwiki = {
       \ , 'kind2scope':{'h':'header'}
       \ , 'sort':0
       \ , 'ctagsbin': 'python3'
-      \ , 'ctagsargsbin':'~/.vim/vwtags.py default'
+      \ , 'ctagsargsbin':'~/.vim/vwtags.py all'
       \ }
 
 set clipboard=unnamed
