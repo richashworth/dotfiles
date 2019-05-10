@@ -31,6 +31,8 @@ syntax on
 " the plugins.
 let mapleader="\\"
 
+map <Leader>jt  <Esc>:%!json_pp -f json -t json -json_opt pretty<CR>
+
 " =============== vim-plug Initialization ===============
 " This loads all the plugins specified in ~/.vim/vim-plug.vim
 if filereadable(expand("~/.vim/vim-plug.vim"))
@@ -229,3 +231,5 @@ let g:airline#extensions#tabline#enabled = 1
 let g:livedown_open = 1
 
 hi Visual term=reverse cterm=reverse guibg=Grey
+
+
