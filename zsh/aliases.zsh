@@ -139,7 +139,7 @@ alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 
 # Common shell functions
 alias less='less -r'
-alias tf='tail -f'
+# alias tf='tail -f'
 
 # alias l='less'
 
@@ -293,4 +293,4 @@ alias ktsrunner="fswatch -0 . | xargs -0 -n 1 -I {} sh -c  \"clear; echo '\033[0
 alias hs="hugo serve --disableFastRender"
 alias ra='cd ~/Projects/richashworth.com'
 
-alias idea='/usr/bin/idea'
+alias tf='terraform'
