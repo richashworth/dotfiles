@@ -226,6 +226,8 @@ alias bup='brewu'
 alias cup='brew cleanup'
 alias aup='bup;cup'
 
+alias sup='sdk update'
+
 # Vim
 alias vim='nvim'
 alias vi='nvim'
@@ -294,3 +296,5 @@ alias hs="hugo serve --disableFastRender"
 alias ra='cd ~/Projects/richashworth.com'
 
 alias tf='terraform'
+
+alias awssh='bash ~/aws-ssh.sh'
