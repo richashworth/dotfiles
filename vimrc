@@ -136,7 +136,7 @@ set tw=100
 set colorcolumn=101
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
-colo solarized
+colo gruvbox
 set background=dark
 hi Normal guibg=NONE ctermbg=NONE
 
