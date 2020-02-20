@@ -311,6 +311,9 @@ hi Visual term=reverse cterm=reverse guibg=Grey
 
 autocmd FileType json syntax match Comment +\/\/.\+$+
 
+set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 
 "
 " Support for Tagbar -- https://github.com/majutsushi/tagbar
