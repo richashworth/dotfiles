@@ -308,6 +308,7 @@ let g:livedown_open = 1
 
 hi Visual term=reverse cterm=reverse guibg=Grey
 
+let g:vista#renderer#enable_icon = 1
 
 autocmd FileType json syntax match Comment +\/\/.\+$+
 

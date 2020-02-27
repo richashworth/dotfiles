@@ -126,6 +126,7 @@ Plug 'wellle/targets.vim'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
 Plug 'xsunsmile/showmarks'
+Plug 'liuchengxu/vista.vim'
 
 " Initialize plugin system
 call plug#end()
