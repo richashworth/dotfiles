@@ -70,7 +70,7 @@ let g:lightline_buffer_active_buffer_right_icon = ''
 let g:lightline_buffer_separator_icon = ' '
 
 let g:lightline_buffer_show_bufnr = 1
-let g:lightline_buffer_rotate = 0
+" let g:lightline_buffer_rotate = 0
 let g:lightline_buffer_fname_mod = ':t'
 let g:lightline_buffer_excludes = ['vimfiler']
 

@@ -296,7 +296,6 @@ let g:tagbar_type_vimwiki = {
 set clipboard=unnamed
 
 set mouse=a
-set autochdir
 
 let g:gist_post_private = 1
 
@@ -316,6 +315,9 @@ autocmd FileType json syntax match Comment +\/\/.\+$+
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
+
+
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 "
 " Support for Tagbar -- https://github.com/majutsushi/tagbar

@@ -51,7 +51,7 @@ Plug 'guns/xterm-color-table.vim'
 Plug 'henrik/vim-indexed-search'
 Plug 'honza/vim-snippets'
 Plug 'jby/tmux.vim'
-Plug 'jistr/vim-nerdtree-tabs'
+" Plug 'jistr/vim-nerdtree-tabs'
 Plug 'johngrib/vim-game-code-break'
 Plug 'jpalardy/vim-slime'
 Plug 'jparise/vim-graphql'
@@ -128,6 +128,9 @@ Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
 Plug 'xsunsmile/showmarks'
 Plug 'liuchengxu/vista.vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'florentc/vim-tla'
 
 " Initialize plugin system
 call plug#end()
