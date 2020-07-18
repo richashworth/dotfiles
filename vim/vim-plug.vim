@@ -131,6 +131,8 @@ Plug 'liuchengxu/vista.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'florentc/vim-tla'
+Plug 'robertbasic/vim-hugo-helper'
+
 
 " Initialize plugin system
 call plug#end()
